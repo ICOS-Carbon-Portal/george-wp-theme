@@ -1,0 +1,25 @@
+/*
+Theme Name: George
+Theme URI:
+Author:
+Author URI:
+Description:
+Requires at least: 6.0
+Tested up to: 6.2.2
+Requires PHP: 5.7
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: george
+Tags: blog, news, portfolio, one-column, wide-blocks, accessibility-ready, block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+/* .wp-block-cover {
+	align-items: start !important;
+} */
+
+.small-line {
+	width: 60px;
+	border-bottom: 3px red solid;
+	padding-top: 1rem;
+}
