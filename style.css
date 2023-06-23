@@ -23,3 +23,9 @@ Tags: blog, news, portfolio, one-column, wide-blocks, accessibility-ready, block
 	border-bottom: 3px red solid;
 	padding-top: 1rem;
 }
+
+.breadcrumbs,
+.breadcrumbs a,
+.breadcrumbs a:hover {
+	color: #8bd3e6;
+}
