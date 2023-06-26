@@ -175,6 +175,14 @@
 					}
 				}
 			},
+			"core/image": {
+				"css": "position: relative;\n\n& figcaption {\nposition: absolute;\ntop: -20px;\nleft: -10px;\nbackground: var(--wp--preset--color--primary);\ncolor: var(--wp--preset--color--base);\npadding: 0.75em 1.2em;\ntext-transform: uppercase;\nfont-weight: bold;\nfont-size: var(--wp--preset--font-size--normal);\n}",
+				"spacing": {
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--30)"
+					}
+				}
+			},
 			"core/navigation": {
 				"elements": {
 					"link": {
