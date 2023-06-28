@@ -19,13 +19,47 @@ Tags: blog, news, portfolio, one-column, wide-blocks, accessibility-ready, block
 } */
 
 .small-line {
-	width: 60px;
-	border-bottom: 3px red solid;
-	padding-top: 1rem;
+	width: 50px;
+	border-bottom: 3px solid var(--wp--preset--color--tertiary);
+	padding-top: 10px;
 }
 
 .breadcrumbs,
 .breadcrumbs a,
 .breadcrumbs a:hover {
-	color: #8bd3e6;
+	color: var(--wp--preset--color--secondary);
+}
+
+.link-list {
+	list-style: none;
+	padding: 0;
+}
+
+.link-list li {
+	position: relative
+}
+
+.link-list a {
+	display: block;
+	color: var(--wp--preset--color--primary) !important;
+	text-decoration: none;
+	border-bottom: 1px solid #EAEFF0;
+	padding: calc(var(--wp--preset--spacing--20) / 2);
+}
+
+.link-list a::after {
+	content: image-set("assets/images/circle-arrow-icon.png" 2x);
+	position: absolute;
+	right: calc(var(--wp--preset--spacing--20) /2);
+	width: 27px;
+	height: 27px;
+}
+
+.link-list a:hover {
+	background-color: #EAEFF0;
+}
+
+.link-list a:hover::after {
+	background-color: #EAEFF0;
+	content: image-set("assets/images/circle-arrow-hover.png" 2x);
 }

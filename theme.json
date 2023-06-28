@@ -175,14 +175,6 @@
 					}
 				}
 			},
-			"core/image": {
-				"css": "position: relative;\n\n& figcaption {\nposition: absolute;\ntop: -20px;\nleft: -10px;\nbackground: var(--wp--preset--color--primary);\ncolor: var(--wp--preset--color--base);\npadding: 0.75em 1.2em;\ntext-transform: uppercase;\nfont-weight: bold;\nfont-size: var(--wp--preset--font-size--normal);\n}",
-				"spacing": {
-					"padding": {
-						"bottom": "var(--wp--preset--spacing--30)"
-					}
-				}
-			},
 			"core/navigation": {
 				"elements": {
 					"link": {
@@ -230,7 +222,8 @@
 							"text": "var(--wp--preset--color--tertiary)"
 						}
 					}
-				}
+				},
+				"css": "& .wp-block-image {\nposition: relative;\npadding-bottom: var(--wp--preset--spacing--30)\n}\n\n& .wp-block-image figcaption {\nposition: absolute;\ntop: -10px;\nleft: -10px;\nmargin: 0;\nbackground: var(--wp--preset--color--primary);\ncolor: var(--wp--preset--color--base);\npadding: 0.75em 1.2em;\ntext-transform: uppercase;\nfont-weight: bold;\nfont-size: var(--wp--preset--font-size--normal);\n}"
 			},
 			"core/post-date": {
 				"elements": {
@@ -287,6 +280,11 @@
 							"textDecoration": "none"
 						}
 					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"fontWeight": "700",
+					"lineHeight": "1.2"
 				},
 				"spacing": {
 					"margin": {
@@ -425,14 +423,25 @@
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--contrast)",
+						"background": "var(--wp--preset--color--secondary)",
 						"gradient": "var(--wp--preset--gradient--secondary-primary)",
-						"text": "var(--wp--preset--color--base)"
+						"text": "var(--wp--preset--color--primary)"
 					}
 				},
 				":visited": {
 					"color": {
 						"text": "var(--wp--preset--color--base)"
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "4px",
+						"left": "12px",
+						"right": "12px",
+						"top": "4px"
+					},
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--20)"
 					}
 				},
 				"border": {
