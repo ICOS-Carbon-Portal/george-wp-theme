@@ -28,15 +28,15 @@
 </div>
 <!-- /wp:cover -->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}}} -->
-<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)">
+<!-- wp:group {"tagName":"main"} -->
+<main class="wp-block-group">
 	<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"0"}}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group" style="padding-bottom:0"><!-- wp:bcn/breadcrumb-trail /-->
 
 		<!-- wp:columns -->
 		<div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
 			<div class="wp-block-column" style="flex-basis:66.66%">
-				<!-- wp:post-featured-image {"overlayColor":"contrast","dimRatio":50,"align":"wide"} /-->
+				<!-- wp:post-featured-image {"align":"wide"} /-->
 
 				<!-- wp:post-date {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"0","bottom":"var:preset|spacing|30","left":"0"}}}} /-->
 

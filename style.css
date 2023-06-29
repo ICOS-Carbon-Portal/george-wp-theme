@@ -63,3 +63,11 @@ Tags: blog, news, portfolio, one-column, wide-blocks, accessibility-ready, block
 	background-color: #EAEFF0;
 	content: image-set("assets/images/circle-arrow-hover.png" 2x);
 }
+
+main {
+	padding: var(--wp--preset--spacing--50) var(--wp--preset--spacing--20);
+}
+
+.wp-block-columns {
+	column-gap: var(--wp--preset--spacing--20) !important;
+}
