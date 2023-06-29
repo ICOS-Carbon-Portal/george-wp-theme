@@ -69,5 +69,5 @@ main {
 }
 
 .wp-block-columns {
-	column-gap: var(--wp--preset--spacing--20) !important;
+	column-gap: var(--wp--preset--spacing--40) !important;
 }
