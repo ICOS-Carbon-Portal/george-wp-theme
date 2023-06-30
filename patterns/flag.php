@@ -3,6 +3,7 @@
 /**
  * Title: Flag
  * Slug: george/flag
+ * Inserter: no
  */
 ?>
 <!-- wp:image {"width":240,"sizeSlug":"full","linkDestination":"custom","className":"size-large"} -->
