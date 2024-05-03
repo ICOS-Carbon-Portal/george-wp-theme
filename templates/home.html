@@ -1,264 +1,37 @@
-<!-- wp:cover {"url":"/wp-content/uploads/2023/06/water-bubbles.webp","id":25,"dimRatio":0,"minHeight":600,"contentPosition":"top center"} -->
-<div class="wp-block-cover has-custom-content-position is-position-top-center" style="min-height:600px"><span
-		aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img
-		class="wp-block-cover__image-background wp-image-25" alt="" src="/wp-content/uploads/2023/06/water-bubbles.webp"
-		data-object-fit="cover" />
-	<div class="wp-block-cover__inner-container">
-		<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-		<div class="wp-block-group"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group alignwide">
-				<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
-				<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--40)">
-					<!-- wp:template-part {"slug":"logo"} /-->
+<!-- wp:template-part {"slug":"header-home","tagName":"header-home"} /-->
 
-					<!-- wp:navigation {"ref":12,"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} /-->
-				</div>
-				<!-- /wp:group -->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:group -->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--70)">
+	<!-- wp:heading {"level":1,"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+	<h1 class="alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">News</h1>
+	<!-- /wp:heading -->
 
-		<!-- wp:spacer {"height":"0vw"} -->
-		<div style="height:0vw" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
+	<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":3},"align":"wide","layout":{"type":"constrained"}} -->
+	<div class="wp-block-query alignwide">
+		<!-- wp:post-template {"align":"wide"} -->
+			<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"max(15vw, 30vh)","align":"wide"} /-->
+			<!-- wp:post-title {"isLink":true} /-->
+			<!-- wp:post-excerpt /-->
+			<!-- wp:post-date {"isLink":true} /-->
 
-		<!-- wp:group {"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group"><!-- wp:heading -->
-			<h2 class="wp-block-heading"><strong>Next Generation Multiplatform Ocean Observing Technologies for
-					Research<br>Infrastructures</strong></h2>
-			<!-- /wp:heading -->
+			<!-- wp:spacer {"height":"var(--wp--preset--spacing--40)"} -->
+			<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
+		<!-- /wp:post-template -->
 
-			<!-- wp:paragraph {"align":"left","placeholder":"Write title…","fontSize":"medium"} -->
-			<p class="has-text-align-left has-medium-font-size">GEORGE is a Horizon Europe-funded project that develops
-				novel<br>technologies to improve ocean observations. The technologies developed<br>will represent the next level
-				in systematic long-term autonomous ocean<br>observations.</p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:group -->
+		<!-- wp:query-pagination {"paginationArrow":"arrow","align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+			<!-- wp:query-pagination-previous {"label":"Newer Posts"} /-->
+			<!-- wp:query-pagination-next {"label":"Older Posts"} /-->
+		<!-- /wp:query-pagination -->
 	</div>
-</div>
-<!-- /wp:cover -->
+	<!-- /wp:query -->
 
-<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull">
-	<!-- wp:columns {"align":"wide","style":{"color":{"text":"#000000","background":"#ffffff"},"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-	<div class="wp-block-columns alignwide has-text-color has-background"
-		style="color:#000000;background-color:#ffffff;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-		<div class="wp-block-column"
-			style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-			<!-- wp:heading -->
-			<h2 class="wp-block-heading"><strong>Novel technologies</strong></h2>
-			<!-- /wp:heading -->
+	<!-- wp:spacer {"height":"var(--wp--preset--spacing--60)"} -->
+	<div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
 
-			<!-- wp:paragraph -->
-			<p>Operational models for next-generation, high-precision sensors and platform technology for monitoring the ocean
-				carbon system. Simple and energy-efficient, ready for the market.&nbsp;</p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-		<div class="wp-block-column"
-			style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-			<!-- wp:heading -->
-			<h2 class="wp-block-heading"><strong><strong>Integrated ocean
-						data</strong></strong></h2>
-			<!-- /wp:heading -->
-
-			<!-- wp:paragraph -->
-			<p>Fully integrated carbon observing systems across European marine research infrastructures, enabling better data
-				to support science and decision-making.</p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-		<div class="wp-block-column"
-			style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-			<!-- wp:heading -->
-			<h2 class="wp-block-heading"><strong><strong>Online training
-						platform</strong></strong></h2>
-			<!-- /wp:heading -->
-
-			<!-- wp:paragraph -->
-			<p>Easy-to-use online training platform, offering training for technical staff to enable them to operate
-				seamlessly across research infrastructures.</p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:column -->
-	</div>
-	<!-- /wp:columns -->
-</div>
-<!-- /wp:group -->
-
-<!-- wp:cover {"url":"/wp-content/uploads/2023/06/CompositeLayer.webp","id":94,"dimRatio":50,"contentPosition":"center center"} -->
-<div class="wp-block-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img
-		class="wp-block-cover__image-background wp-image-94" alt="" src="/wp-content/uploads/2023/06/CompositeLayer.webp"
-		data-object-fit="cover" />
-	<div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
-			<p class="has-text-align-center has-large-font-size"><strong>GEORGE brings together 28 leading partners from
-					academia and industry alike, including three research infrastructures: EMSO ERIC, Euro-Argo ERIC and ICOS
-					ERIC. Together these three ERICs cover the whole expanse of European marine waters. </strong></p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:group -->
-	</div>
-</div>
-<!-- /wp:cover -->
-
-<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull">
-	<!-- wp:columns {"align":"wide","style":{"color":{"text":"#000000","background":"#ffffff"},"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"},"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-	<div class="wp-block-columns alignwide has-text-color has-background"
-		style="color:#000000;background-color:#ffffff;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-		<!-- wp:column {"width":"","style":{"border":{"top":{"color":"#dc5d61","width":"5px"}},"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-		<div class="wp-block-column"
-			style="border-top-color:#dc5d61;border-top-width:5px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-			<!-- wp:cover {"url":"/wp-content/uploads/2023/06/for-scientists.jpeg","id":122,"dimRatio":50,"minHeight":600,"contentPosition":"top center","isDark":false,"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-			<div class="wp-block-cover is-light has-custom-content-position is-position-top-center"
-				style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:600px">
-				<span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img
-					class="wp-block-cover__image-background wp-image-122" alt=""
-					src="/wp-content/uploads/2023/06/for-scientists.jpeg" data-object-fit="cover" />
-				<div class="wp-block-cover__inner-container">
-					<!-- wp:image {"id":126,"width":44,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-resized"><img src="/wp-content/uploads/2023/06/scientists-icon.png"
-							alt="" class="wp-image-126" width="44" height="56" /></figure>
-					<!-- /wp:image -->
-
-					<!-- wp:paragraph {"align":"left","placeholder":"Write title…","style":{"typography":{"textTransform":"uppercase"}},"textColor":"base","fontSize":"medium"} -->
-					<p class="has-text-align-left has-base-color has-text-color has-medium-font-size"
-						style="text-transform:uppercase"><strong>For scientists</strong></p>
-					<!-- /wp:paragraph -->
-
-					<!-- wp:paragraph {"textColor":"base","fontSize":"small"} -->
-					<p class="has-base-color has-text-color has-small-font-size">The new sensor and platform technologies
-						developed by GEORGE can dramatically enhance the coverage, continuity and spatiotemporal resolution of
-						marine observations. The new sensors are able to reach parts of the ocean that are currently inaccessible,
-						such as polar areas, the deep sea and areas outside of commercial shipping routes. GEORGE will also enable
-						scientists and research technicians to test the new instruments and take part in online training.</p>
-					<!-- /wp:paragraph -->
-				</div>
-			</div>
-			<!-- /wp:cover -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"","style":{"border":{"top":{"color":"#dc5d61","width":"5px"}},"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-		<div class="wp-block-column"
-			style="border-top-color:#dc5d61;border-top-width:5px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-			<!-- wp:cover {"url":"/wp-content/uploads/2023/06/for-industry.jpeg","id":134,"dimRatio":50,"minHeight":600,"contentPosition":"top center","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-			<div class="wp-block-cover has-custom-content-position is-position-top-center"
-				style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:600px">
-				<span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img
-					class="wp-block-cover__image-background wp-image-134" alt=""
-					src="/wp-content/uploads/2023/06/for-industry.jpeg" data-object-fit="cover" />
-				<div class="wp-block-cover__inner-container">
-					<!-- wp:image {"id":129,"width":58,"height":58,"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-resized"><img src="/wp-content/uploads/2023/06/industry-icon.png"
-							alt="" class="wp-image-129" width="58" height="58" /></figure>
-					<!-- /wp:image -->
-
-					<!-- wp:paragraph {"align":"left","placeholder":"Write title…","style":{"typography":{"textTransform":"uppercase"}},"textColor":"base","fontSize":"medium"} -->
-					<p class="has-text-align-left has-base-color has-text-color has-medium-font-size"
-						style="text-transform:uppercase"><strong>For industry</strong></p>
-					<!-- /wp:paragraph -->
-
-					<!-- wp:paragraph {"textColor":"base","fontSize":"small"} -->
-					<p class="has-base-color has-text-color has-small-font-size">GEORGE is a powerful collaboration of academic
-						and industry partners. The project’s expert team develops sensor technology that can be integrated into
-						floats, moorings and ships and used for high-precision, accurate measurements of ocean carbon systems. The
-						goal is to develop five new sensors past the technology readiness level to be commercially produced.</p>
-					<!-- /wp:paragraph -->
-				</div>
-			</div>
-			<!-- /wp:cover -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"","style":{"border":{"top":{"color":"#dc5d61","width":"5px"}},"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-		<div class="wp-block-column"
-			style="border-top-color:#dc5d61;border-top-width:5px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-			<!-- wp:cover {"url":"/wp-content/uploads/2023/06/for-policy-makers.jpeg","id":135,"dimRatio":50,"minHeight":600,"contentPosition":"top center","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-			<div class="wp-block-cover has-custom-content-position is-position-top-center"
-				style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:600px">
-				<span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img
-					class="wp-block-cover__image-background wp-image-135" alt=""
-					src="/wp-content/uploads/2023/06/for-policy-makers.jpeg" data-object-fit="cover" />
-				<div class="wp-block-cover__inner-container">
-					<!-- wp:image {"id":130,"width":56,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-resized"><img
-							src="/wp-content/uploads/2023/06/policy-makers-icon.png" alt="" class="wp-image-130" width="56"
-							height="56" /></figure>
-					<!-- /wp:image -->
-
-					<!-- wp:paragraph {"align":"left","placeholder":"Write title…","style":{"typography":{"textTransform":"uppercase"}},"textColor":"base","fontSize":"medium"} -->
-					<p class="has-text-align-left has-base-color has-text-color has-medium-font-size"
-						style="text-transform:uppercase"><strong>For policy makers</strong></p>
-					<!-- /wp:paragraph -->
-
-					<!-- wp:paragraph {"textColor":"base","fontSize":"small"} -->
-					<p class="has-base-color has-text-color has-small-font-size">GEORGE aims to provide policymakers with
-						high-quality and reliable scientific data on the ocean's condition. This data will help them make quick and
-						informed decisions on how to adapt to climate change and reduce its impacts. The project will also enhance
-						the competitiveness of European industries that produce and supply ocean observation equipment and
-						technology.</p>
-					<!-- /wp:paragraph -->
-				</div>
-			</div>
-			<!-- /wp:cover -->
-		</div>
-		<!-- /wp:column -->
-	</div>
-	<!-- /wp:columns -->
-</div>
-<!-- /wp:group -->
-
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"
-	style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-	<!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-	<div class="wp-block-group alignwide">
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
-		<div class="wp-block-group"
-			style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-			<!-- wp:heading {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-			<h2 class="wp-block-heading" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">News</h2>
-			<!-- /wp:heading -->
-
-			<!-- wp:html -->
-			<div class="small-line"></div>
-			<!-- /wp:html -->
-		</div>
-		<!-- /wp:group -->
-
-		<!-- wp:query {"queryId":28,"query":{"perPage":"4","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"displayLayout":{"type":"flex","columns":4},"layout":{"type":"default"}} -->
-		<div class="wp-block-query"><!-- wp:post-template -->
-			<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"},"blockGap":"12px"}},"layout":{"inherit":false}} -->
-			<div class="wp-block-group"
-				style="padding-top:0;padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-				<!-- wp:post-featured-image /-->
-
-				<!-- wp:post-date /-->
-
-				<!-- wp:post-title {"isLink":true,"style":{"spacing":{"padding":{"top":"0px","right":"0","bottom":"0","left":"0"}}}} /-->
-
-				<!-- wp:post-excerpt {"moreText":"Read more \u0026rarr;"} /-->
-
-				<!-- wp:separator -->
-				<hr class="wp-block-separator has-alpha-channel-opacity" />
-				<!-- /wp:separator -->
-			</div>
-			<!-- /wp:group -->
-			<!-- /wp:post-template -->
-		</div>
-		<!-- /wp:query -->
-	</div>
-	<!-- /wp:group -->
-</div>
+	<!-- wp:pattern {"slug":"george/cta"} /-->
+</main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

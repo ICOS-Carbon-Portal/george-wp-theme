@@ -1,6 +1,16 @@
-<!-- wp:cover {"useFeaturedImage":true,"dimRatio":20,"minHeight":600,"contentPosition":"center center","isDark":true,"className":"is-dark align-items-start"} -->
-<div class="wp-block-cover is-dark align-items-start" style="min-height:600px"><span aria-hidden="true"
-		class="wp-block-cover__background has-background-dim-20 has-background-dim"></span>
+<?php
+
+/**
+ * Title: Header home
+ * Slug: george/header-home
+ * Inserter: no
+ */
+?>
+
+<!-- wp:cover {"url":"<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/yellow-sailor.webp", "dimRatio":0,"minHeight":600,"contentPosition":"top center"} -->
+<div class="wp-block-cover has-custom-content-position is-position-top-center" style="min-height:600px">
+	<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
+	<img class="wp-block-cover__image-background wp-image-25" alt="" src="<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/yellow-sailor.webp" data-object-fit="cover" />
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:group {"align":"full","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 		<div class="wp-block-group alignfull">
