@@ -8,16 +8,14 @@
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/post-hero-sea-photo.webp","id":171,"dimRatio":0,"minHeight":600,"contentPosition":"center center","isDark":false,"className":"align-items-start"} -->
-<div class="wp-block-cover align-items-start" style="min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-171" alt="" src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/post-hero-sea-photo.webp" data-object-fit="cover" />
+<div class="wp-block-cover is-light align-items-start" style="min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-171" alt="" src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/post-hero-sea-photo.webp" data-object-fit="cover" />
 	<div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 		<div class="wp-block-group alignfull"><!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"px","wideSize":""}} -->
 			<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|40","left":"0"},"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","orientation":"horizontal"}} -->
 				<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--40);padding-left:0">
 					<!-- wp:template-part {"slug":"logo","theme":"george"} /-->
 
-					<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
-					<div class="wp-block-group"><!-- wp:navigation {"ref":12,"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} /--></div>
-					<!-- /wp:group -->
+					<!-- wp:navigation {"ref":362,"style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} /-->
 				</div>
 				<!-- /wp:group -->
 			</div>
