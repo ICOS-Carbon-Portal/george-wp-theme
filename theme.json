@@ -1,4 +1,5 @@
 {
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
 	"customTemplates": [
 		{
 			"name": "404",
@@ -44,9 +45,7 @@
 			"wideSize": "1200px"
 		},
 		"spacing": {
-			"spacingScale": {
-				"steps": 0
-			},
+			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
 					"name": "0",
@@ -94,6 +93,7 @@
 			]
 		},
 		"typography": {
+			"defaultFontSizes": false,
 			"dropCap": false,
 			"fluid": true,
 			"fontFamilies": [
@@ -604,6 +604,5 @@
 			"title": "Post Meta"
 		}
 	],
-	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
+	"version": 3
 }
