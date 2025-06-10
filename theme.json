@@ -221,7 +221,7 @@
 				}
 			},
 			"core/post-content": {
-				"css": "& .wp-block-image {\nposition: relative;\npadding-bottom: var(--wp--preset--spacing--30);\nmargin-top: var(--wp--preset--spacing--30);\n}\n\n& .wp-block-image figcaption {\nposition: absolute;\ntop: -10px;\nleft: -10px;\nmargin: 0;\nbackground: var(--wp--preset--color--primary);\ncolor: var(--wp--preset--color--base);\npadding: 0.75em 1.2em;\ntext-transform: uppercase;\nfont-weight: bold;\nfont-size: var(--wp--preset--font-size--normal);\n}",
+				"css": "& .wp-block-image {\nposition: relative;\npadding-bottom: var(--wp--preset--spacing--30);\nmargin-top: var(--wp--preset--spacing--30);\n}\n\n& .wp-block-image figcaption {\ncolor: var(--wp--preset--color--primary);\nfont-size: var(--wp--preset--font-size--normal);}",
 				"elements": {
 					"link": {
 						"color": {
